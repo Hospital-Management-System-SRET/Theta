@@ -1,0 +1,81 @@
+.container .doc {
+  background-color: white;
+}
+.container .doc .context {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.29;
+  color: rgb(45, 45, 146);
+  text-align: left;
+}
+.container .doc .context p {
+  color: black;
+}
+.container .doc .btn button {
+  background-color: rgb(45, 45, 146);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #dde0e9;
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.container .tog {
+  color: rgb(108, 108, 110);
+  border: none;
+  background-color: inherit;
+  padding: 15px 30px;
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.container .doc img {
+  float: left;
+  padding: 50px;
+  margin-top: -40px;
+}
+
+.container .col {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.29;
+  color: rgb(45, 45, 146);
+  text-align: left;
+  padding-left: 30px;
+  line-height: 1.25;
+}
+.container .col p {
+  color: black;
+}
+.container .col {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+.container .col .btn button {
+  background-color: rgb(45, 45, 146);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #dde0e9;
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}

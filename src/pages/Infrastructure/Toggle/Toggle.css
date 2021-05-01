@@ -1,6 +1,14 @@
 .container .doc {
   background-color: white;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse !important;
+  box-sizing: border-box;
 }
+
 .container .doc .context {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.125rem;
@@ -9,10 +17,23 @@
   color: rgb(45, 45, 146);
   text-align: left;
 }
+
+.container .doc .context {
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-left: auto !important;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
 .container .doc .context p {
   color: black;
 }
-.container .doc .btn button {
+.container .doc .context .btn button {
   background-color: rgb(45, 45, 146);
   border: none;
   color: white;
@@ -25,6 +46,7 @@
   font-size: 17px;
   margin: 4px 2px;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .container .tog {
@@ -39,10 +61,57 @@
   display: inline-block;
 }
 
-.container .doc img {
-  float: left;
-  padding: 50px;
-  margin-top: -40px;
+.container .doc .firstimg{
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  margin-bottom: 1.25rem;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+  position: relative;
+  width: 100%;
+  display: block !important;
+  box-sizing: border-box;
+  align-items: left;
+}
+
+.container .doc .firstimg .lens{
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+  box-sizing: border-box;
+  width: 160px; 
+}
+
+.container .doc .secondimg{
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  margin-bottom: 1.25rem;
+  flex: 0 0 25%;
+  max-width: 25%;
+  position: relative;
+  width: 100%;
+  display: block !important;
+  box-sizing: border-box;
+}
+.container .doc .secondimg .imageone{
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+  box-sizing: border-box;
+  width: 260px;
+}
+.container .doc .secondimg .image {
+  margin-top: 1.25rem;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+  box-sizing: border-box;
 }
 
 .container .col {
@@ -78,4 +147,20 @@
   font-size: 17px;
   margin: 4px 2px;
   border-radius: 12px;
+  cursor: pointer;
+}
+.container .second {
+  background-color: rgb(245, 248, 248);
+}
+
+.container .second .title {
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-left: auto !important;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
 }
